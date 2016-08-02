@@ -1,6 +1,6 @@
 
 function outer(){
-  var a = "string";
+  var a = " PRIYAM ";
   var b = {name1:"Priyam",name2:"Jude"};
   console.log("This is the output from OUTER A " + a);
   console.log("This is the output from OUTER B " + b);
