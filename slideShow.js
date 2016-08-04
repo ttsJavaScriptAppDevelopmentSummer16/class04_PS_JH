@@ -1,7 +1,7 @@
 var slideShow = {
   photoList: ["cat", "dog", "fish"],
   currentPhotoIndex: 0,
-  playInterval: "",
+  playInterval: null,
   nextPhoto:function (){
     if (this.currentPhotoIndex < this.photoList.length) {
       console.log(this.getCurrentPhoto());
@@ -13,7 +13,7 @@ var slideShow = {
   },
   prevPhoto:function (){
     if (this.currentPhotoIndex > 0) {
-      console.log(this.getCurrentPhoto());      
+      console.log(this.getCurrentPhoto());
       this.currentPhotoIndex -=1;
     }else {
       this.pause();
